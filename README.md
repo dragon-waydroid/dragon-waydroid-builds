@@ -2,6 +2,8 @@
 Add support for HEVC/AVC/VP9 hardware decoding via v4l2_codec2 on Qualcomm mainline Linux devices with the Venus driver.  
 Verified on Radxa Dragon Q6A(QCS6490) and Huawei MateBook E Go(SC8280XP).
 
+**Note: This is an experimental release for testing purposes only!**
+
 ## How to build
 
 ```
@@ -24,5 +26,3 @@ make systemimage vendorimage -j$(nproc --all)
 - [raspberry-vanilla](https://github.com/raspberry-vanilla)
 - [Waydroid Docs](https://docs.waydro.id/development/compile-waydroid-lineage-os-based-images)
 - [LineageOS Wiki](https://wiki.lineageos.org/)
-
-**Note: This is an experimental release for testing purposes only!**
